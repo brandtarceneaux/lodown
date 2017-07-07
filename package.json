@@ -1,0 +1,39 @@
+{
+  "name": "lodown-brandtarceneaux",
+  "version": "1.0.0",
+  "description": "A functional library of code",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandtarceneaux/lodown.git"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "data",
+    "processing",
+    "javascript"
+  ],
+  "author": "brandtarceneaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandtarceneaux/lodown/issues"
+  },
+  "homepage": "https://github.com/brandtarceneaux/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4"
+  },
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
